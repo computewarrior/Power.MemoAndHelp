@@ -129,6 +129,8 @@ UsingEpsProjName:""
 
 ```
 * ### 数组转化为树表
+
+```
 mini.arrayToTree(result, grid.nodesField, grid.idField, grid.parentField);
 
 /*为了速度，不采用行列转置
@@ -225,6 +227,7 @@ mini.arrayToTree(result, grid.nodesField, grid.idField, grid.parentField);
 
         }
         */
+```
 
 * ### 表格treeselect 编辑
 
