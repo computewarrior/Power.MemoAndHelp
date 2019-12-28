@@ -1,6 +1,8 @@
-### [项目管理PM参考应用平台](http://58.246.56.2:9503/)
+# 帮助
 
-+ ### 开发平台和应用平台
+#### [项目管理PM参考应用平台](http://58.246.56.2:9503/)
+
+* **开发平台和应用平台**
 * [河南水投应用平台](http://42.96.187.78)
 * [河南水投开发平台](http://42.96.187.78:9901)
 * [河南水投PM系统应用平台](http://42.96.187.78:8001)
@@ -8,9 +10,10 @@
 * [新平台帮助文档](http://dev.p3china.com:9000/PowerPlat/Systemhelp.html)
 * [协鑫新能源开发平台](http://dev.p3china.com:9000)
 * [协鑫新能源应用网站](http://Dev.p3china.com:9536)[测试地址](http://10.10.2.186)
-* ### 同步读取后台数据的方法。
-```javascript
-var QBSId = formconfig.config.joindata.newdefaultdata.QBSId;
+* **同步读取后台数据的方法。**
+
+  ```javascript
+  var QBSId = formconfig.config.joindata.newdefaultdata.QBSId;
                 var LongCode = "";
                 var jsonData = [];
                 var p1 = {};
@@ -23,11 +26,11 @@ var QBSId = formconfig.config.joindata.newdefaultdata.QBSId;
                     var HNST_QTL_QBSProject = data.data[one.KeyWord];
                     LongCode = HNST_QTL_QBSProject[0].LongCode;
                 });
-```
+  ```
 
-* ### 静态页面要用上的JS
+* **静态页面要用上的JS**
 
-```html
+```markup
 <script src="/Scripts/boot.js?v=$AppVersion" type="text/javascript"></script>
     <script src="/Scripts/PlatForm/ComTools.js?v=$AppVersion" type="text/javascript"></script>
     <script src="/Scripts/PlatForm/SingleForm.js?v=$AppVersion" type="text/javascript"></script>
@@ -48,9 +51,9 @@ var QBSId = formconfig.config.joindata.newdefaultdata.QBSId;
     </script>
 ```
 
-* ### 静态表单要用上的JS
+* **静态表单要用上的JS**
 
-```html
+```markup
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -69,273 +72,233 @@ var QBSId = formconfig.config.joindata.newdefaultdata.QBSId;
     </script>
 ```
 
-* ### 获取sessiondata 
-sessiondata里面的字段
-```
-AssemblyCode:"系统应用库"
-AssemblyID:"263224be-6c40-3968-121c-80c9aad5b4ed"
-AssemblyName:"系统应用库"
-BizAreaCode:
-null
-BizAreaId:"00000000-0000-0000-0000-00000000000a"
-BizAreaName:
-null
-CssStyle:""
-DeptCode:""
-DeptId:""
-DeptName:""
-DeviceInfo:
-{DeviceType: "Unknow", DevicePlatform: "WinNT", DeviceAppName: "Chrome61", DeviceAppVersion: "61.0", DeviceIP: "180.173.33.114", …}
-EpsIsProject:"0"
-EpsProjCode:"A018"
-EpsProjId:"48c26058-4914-46aa-8dfb-048e0de8bf08"
-EpsProjLongCode:"1.7"
-EpsProjName:"怀州水生态"
-ExtendParam:
-null
-HumanCode:"admin"
-HumanEmail:""
-HumanHeadBig:""
-HumanHeadSmall:""
-HumanId:"ad000000-0000-0000-0000-000000000000"
-HumanMobile:
-null
-HumanName:"系统管理员"
-IsAdmin:
-true
-IsITAdmin:
-true
-IsLockScreen:
-false
-Language:"zh-CN"
-LoginCheckType:"Power"
-LoginDateTime:"2017-10-24T16:10:58.862"
-MajorCode:""
-MajorId:""
-MajorName:""
-OwnProjId:""
-PosiCode:""
-PosiId:""
-PosiName:""
-SessionId:"ba7eea3c-c08c-4e30-9141-d67474611355"
-SubSystemId:""
-TokenId:""
-UserCode:"admin"
-UserId:"ad000000-0000-0000-0000-000000000000"
-UserName:"系统管理员"
-UsingAssemblys:"2840adf7-573d-a391-eac1-f9bf1ca6d6cd,263224be-6c40-3968-121c-80c9aad5b4ed"
-UsingEpsProjId:""
-UsingEpsProjName:""
+* **获取sessiondata**
 
-```
+  sessiondata里面的字段
+
+  \`\`\`
+
+  AssemblyCode:"系统应用库"
+
+  AssemblyID:"263224be-6c40-3968-121c-80c9aad5b4ed"
+
+  AssemblyName:"系统应用库"
+
+  BizAreaCode:
+
+  null
+
+  BizAreaId:"00000000-0000-0000-0000-00000000000a"
+
+  BizAreaName:
+
+  null
+
+  CssStyle:""
+
+  DeptCode:""
+
+  DeptId:""
+
+  DeptName:""
+
+  DeviceInfo:
+
+  {DeviceType: "Unknow", DevicePlatform: "WinNT", DeviceAppName: "Chrome61", DeviceAppVersion: "61.0", DeviceIP: "180.173.33.114", …}
+
+  EpsIsProject:"0"
+
+  EpsProjCode:"A018"
+
+  EpsProjId:"48c26058-4914-46aa-8dfb-048e0de8bf08"
+
+  EpsProjLongCode:"1.7"
+
+  EpsProjName:"怀州水生态"
+
+  ExtendParam:
+
+  null
+
+  HumanCode:"admin"
+
+  HumanEmail:""
+
+  HumanHeadBig:""
+
+  HumanHeadSmall:""
+
+  HumanId:"ad000000-0000-0000-0000-000000000000"
+
+  HumanMobile:
+
+  null
+
+  HumanName:"系统管理员"
+
+  IsAdmin:
+
+  true
+
+  IsITAdmin:
+
+  true
+
+  IsLockScreen:
+
+  false
+
+  Language:"zh-CN"
+
+  LoginCheckType:"Power"
+
+  LoginDateTime:"2017-10-24T16:10:58.862"
+
+  MajorCode:""
+
+  MajorId:""
+
+  MajorName:""
+
+  OwnProjId:""
+
+  PosiCode:""
+
+  PosiId:""
+
+  PosiName:""
+
+  SessionId:"ba7eea3c-c08c-4e30-9141-d67474611355"
+
+  SubSystemId:""
+
+  TokenId:""
+
+  UserCode:"admin"
+
+  UserId:"ad000000-0000-0000-0000-000000000000"
+
+  UserName:"系统管理员"
+
+  UsingAssemblys:"2840adf7-573d-a391-eac1-f9bf1ca6d6cd,263224be-6c40-3968-121c-80c9aad5b4ed"
+
+  UsingEpsProjId:""
+
+  UsingEpsProjName:""
+
+```text
 * ### 数组转化为树表
-
 ```
-mini.arrayToTree(result, grid.nodesField, grid.idField, grid.parentField);
 
-/*为了速度，不采用行列转置
-        PowerForm.EventBeforeRenderData=function(e,data)
-        {
-            //表格数据填充之前，行转列（将矩阵中的行数据转换成列数据显示，类别、年份、金额）
-            if(e.sender.id=="HNSTC_Cost_Class")
-            {
-                 var NewList=[];
-                 var item=null;
-                 //循环数据，将同一类别的多行数据，拼成一行多列
-                 for(var i=0;i<data.length;i++)
-                 {
-                      if(item==null || item.ItemId!=data[i].ItemId)
+mini.arrayToTree\(result, grid.nodesField, grid.idField, grid.parentField\);
+
+/\*为了速度，不采用行列转置 PowerForm.EventBeforeRenderData=function\(e,data\) { //表格数据填充之前，行转列（将矩阵中的行数据转换成列数据显示，类别、年份、金额） if\(e.sender.id=="HNSTC\_Cost\_Class"\) { var NewList=\[\]; var item=null; //循环数据，将同一类别的多行数据，拼成一行多列 for\(var i=0;i&lt;data.length;i++\) { if\(item==null \|\| item.ItemId!=data\[i\].ItemId\) { if\(item!=null\) { NewList.push\(item\); }
+
+```text
+                      item={};
+                      item.ItemId=data[i].ItemId;
+                      item.PurchaseRate=data[i].PurchaseRate;
+                      item.Name=data[i].Name;
+                      if(data[i].Year!=0)
                       {
-                          if(item!=null)
-                          {
-                              NewList.push(item);
-                          }
-
-                          item={};
-                          item.ItemId=data[i].ItemId;
-                          item.PurchaseRate=data[i].PurchaseRate;
-                          item.Name=data[i].Name;
-                          if(data[i].Year!=0)
-                          {
-                              eval("item.Year_"+data[i].Year+"=data[i].Money;");
-                          }
+                          eval("item.Year_"+data[i].Year+"=data[i].Money;");
                       }
-                      else
-                      {
-                              eval("item.Year_"+data[i].Year+"=data[i].Money;");
-                      }
-                 }
-                 NewList.push(item);
-                 return NewList;
-            }
-            else
-            {
-            return data;
-            }
+                  }
+                  else
+                  {
+                          eval("item.Year_"+data[i].Year+"=data[i].Money;");
+                  }
+             }
+             NewList.push(item);
+             return NewList;
         }
-
-        PowerForm.EventBeforeSaveData=function(data,e)
+        else
         {
-            //主表单不存
-            data.HNSTC_Proj_ProjectInfo.data=[];
-
-            //保存前，列转行（将一个类别的多列数据（多年）转换成矩阵行数据，类别+年份+金额），对应EventBeforeRenderData中的行转列
-            if(data.HNSTC_Cost_Class)
-            {
-                var NewList=[];
-                var HNSTC_Cost_Class=data.HNSTC_Cost_Class.data;
-                for(var i=0;i<HNSTC_Cost_Class.length;i++)
-                {
-                    //每行数据建设期1、2、3年的金额 转换成 年份+金额 矩阵
-                    for(j=0;j<ConstructionYears;j++)
-                    {
-                        var item={};
-                        if(j==0)
-                        {
-                            //Id用原值的Id
-                            item["Id"]=HNSTC_Cost_Class[i].Id;
-                            item["_state"]="modified";
-                        }
-                        else
-                        {
-                            //Id重新生成
-                            item["Id"]=CreateGUID();
-                            item["_state"]="added";
-                        }
-                        item["ItemId"]=HNSTC_Cost_Class[i].ItemId;
-                        item["MainId"]=HNSTC_Cost_Class[i].MainId;
-                        item["ProjectId"]=HNSTC_Cost_Class[i].ProjectId;
-                        item["TempId"]=HNSTC_Cost_Class[i].TempId;
-                        item["Name"]=HNSTC_Cost_Class[i].Name;
-                        item["Sequ"]=HNSTC_Cost_Class[i].Sequ;
-                        item["PurchaseRate"]=HNSTC_Cost_Class[i].PurchaseRate;
-                        item["Year"]=j+1;
-                        if(HNSTC_Cost_Class[i]["Year_"+(j+1)])
-                        {
-                            item["Money"]=HNSTC_Cost_Class[i]["Year_"+(j+1)];
-                        }
-                        else
-                        {
-                            item["Money"]=0;
-                        }
-
-                        NewList.push(item);
-                    }
-                }
-                data.HNSTC_Cost_Class.data=NewList;
-            }
-
+        return data;
         }
-        */
-```
-
-* ### 表格treeselect 编辑
-
-```
-{
-    "GCL_EstimateTplDetails.BoundaryConditions": {
-        "ComponentID": "9b552609-99be-2bc6-49f2-61d90ea7aa76",
-        "ComponentName": "",
-        "ComponentType": "wizard",
-        "multi": "0",
-        "fields": {
-            "BoundaryConditions": "Id",
-            "BoundaryConditionsName": "Field"
-        }
-
-    }   
-}
-<div name="BoundaryConditionsName" class="design mini-datagridcolumn" field="BoundaryConditionsName" width="120" headeralign="center" type="textboxcolumn" id="GCL_EstimateTplDetails.BoundaryConditions">
-边界条件 <input name="BoundaryConditionsName" class="mini-buttonedit" id="GCL_EstimateTplDetails.BoundaryConditions" style="width: 100%;" property="editor" onbuttonclick="PowerForm.OnBtnWizard(this)" allowInput="false" >
-</div>
-```
-* ### 常用PowerForm事件
-
-```javascript
-
-PowerForm.EventBeforeLoadData=function(e){ 
-           // if(e.params.swhere=="")
-}
-
-PowerForm.EventAfterLoadData = function (e) {return e.data}    
- PowerForm.EventWizardAfterUpdateRow = function (e, row) {}
-PowerForm.EventWizardWhere = function (e) {
-            e.canOpen = true;
-            e.where ="";
-}
-
-### 初始化下拉框数据
- comboboxdata["GCLLT_Plan_WorkReportDetails_NextMonth.ProjectId"].Data = projectList;
-                    FormFuns.InitComboboxData();
-
-```
-
-###  弹出窗体
-
- mini.open({
-                url: bootPATH + "../demo/CommonLibs/SelectGridWindow.html",
-                title: "选择列表",
-                width: 650,
-                height: 380,
-                ondestroy: function (action) {
-                    //if (action == "close") return false;
-                    if (action == "ok") {
-                        var iframe = this.getIFrameEl();
-                        var data = iframe.contentWindow.GetData();
-                        data = mini.clone(data);    //必须
-                        if (data) {
-                            btnEdit.setValue(data.id);
-                            btnEdit.setText(data.name);
-                        }
-                    }
-
-                }
-            });
-
-```html
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <title>Pager 分页控件</title>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link href="../demo.css" rel="stylesheet" type="text/css" />
-        
-    <script src="../../scripts/boot.js" type="text/javascript"></script>
-       
-</head>
-<body>
-    <h1>Pager 分页控件</h1>      
-    
-
-<div class="mini-pager" style="width:700px;background:#f0f3f7;border:solid 1px #ccc;    " 
-    totalCount="123" onpagechanged="onPageChanged" sizeList="[5,10,20,100]"
-    showPageSize="true" showPageIndex="true" showPageInfo="true" 
-    buttons="#buttons"
-    >        
-    
-</div>    
-<div id="buttons">
-    <span class="separator"></span>
-    <a class="mini-button" iconCls="icon-add" plain="true" id="add"></a>
-    <a class="mini-button" iconCls="icon-edit" plain="true"></a>
-    <a class="mini-button" iconCls="icon-remove" plain="true"></a>
-</div>
-
-<script type="text/javascript">
-    function onPageChanged(e) {
-        alert(e.pageIndex + ":" + e.pageSize);
     }
-    
-</script>
 
-    <div class="description">
-        <h3>Description</h3>
-        <p>
-        </p>
-    </div>
+    PowerForm.EventBeforeSaveData=function(data,e)
+    {
+        //主表单不存
+        data.HNSTC_Proj_ProjectInfo.data=[];
 
+        //保存前，列转行（将一个类别的多列数据（多年）转换成矩阵行数据，类别+年份+金额），对应EventBeforeRenderData中的行转列
+        if(data.HNSTC_Cost_Class)
+        {
+            var NewList=[];
+            var HNSTC_Cost_Class=data.HNSTC_Cost_Class.data;
+            for(var i=0;i<HNSTC_Cost_Class.length;i++)
+            {
+                //每行数据建设期1、2、3年的金额 转换成 年份+金额 矩阵
+                for(j=0;j<ConstructionYears;j++)
+                {
+                    var item={};
+                    if(j==0)
+                    {
+                        //Id用原值的Id
+                        item["Id"]=HNSTC_Cost_Class[i].Id;
+                        item["_state"]="modified";
+                    }
+                    else
+                    {
+                        //Id重新生成
+                        item["Id"]=CreateGUID();
+                        item["_state"]="added";
+                    }
+                    item["ItemId"]=HNSTC_Cost_Class[i].ItemId;
+                    item["MainId"]=HNSTC_Cost_Class[i].MainId;
+                    item["ProjectId"]=HNSTC_Cost_Class[i].ProjectId;
+                    item["TempId"]=HNSTC_Cost_Class[i].TempId;
+                    item["Name"]=HNSTC_Cost_Class[i].Name;
+                    item["Sequ"]=HNSTC_Cost_Class[i].Sequ;
+                    item["PurchaseRate"]=HNSTC_Cost_Class[i].PurchaseRate;
+                    item["Year"]=j+1;
+                    if(HNSTC_Cost_Class[i]["Year_"+(j+1)])
+                    {
+                        item["Money"]=HNSTC_Cost_Class[i]["Year_"+(j+1)];
+                    }
+                    else
+                    {
+                        item["Money"]=0;
+                    }
+
+                    NewList.push(item);
+                }
+            }
+            data.HNSTC_Cost_Class.data=NewList;
+        }
+
+    }
+    */
 ```
+
+```text
+* ### 表格treeselect 编辑
+```
+
+{ "GCL\_EstimateTplDetails.BoundaryConditions": { "ComponentID": "9b552609-99be-2bc6-49f2-61d90ea7aa76", "ComponentName": "", "ComponentType": "wizard", "multi": "0", "fields": { "BoundaryConditions": "Id", "BoundaryConditionsName": "Field" }
+
+```text
+}   
+```
+
+}
+
+ 边界条件  \`\`\` \* \#\#\# 常用PowerForm事件 \`\`\`javascript PowerForm.EventBeforeLoadData=function\(e\){ // if\(e.params.swhere==""\) } PowerForm.EventAfterLoadData = function \(e\) {return e.data} PowerForm.EventWizardAfterUpdateRow = function \(e, row\) {} PowerForm.EventWizardWhere = function \(e\) { e.canOpen = true; e.where =""; } \#\#\# 初始化下拉框数据 comboboxdata\["GCLLT\_Plan\_WorkReportDetails\_NextMonth.ProjectId"\].Data = projectList; FormFuns.InitComboboxData\(\); \`\`\` \#\#\# 弹出窗体 mini.open\({ url: bootPATH + "../demo/CommonLibs/SelectGridWindow.html", title: "选择列表", width: 650, height: 380, ondestroy: function \(action\) { //if \(action == "close"\) return false; if \(action == "ok"\) { var iframe = this.getIFrameEl\(\); var data = iframe.contentWindow.GetData\(\); data = mini.clone\(data\); //必须 if \(data\) { btnEdit.setValue\(data.id\); btnEdit.setText\(data.name\); } } } }\); \`\`\`htmlPager 分页控件
+
+## Pager 分页控件
+
+  
+    function onPageChanged\(e\) {  
+        alert\(e.pageIndex + ":" + e.pageSize\);  
+    }  
+  
+
+
+#### Description
+
+```text
 ### 我写的神奇的行转列代码
 
 ```javascript
@@ -392,15 +355,13 @@ PowerForm.EventWizardWhere = function (e) {
             }
             console.log(newData);
        }
-```       
-</body>
-</html>
+```
 
+&lt;/body&gt; &lt;/html&gt;
 
-### 递归树表向上汇总。
+#### 递归树表向上汇总。
 
 ```javascript
-
  function UpdateParent(grid, record, field) {
             var parentNode = grid.getParentNode(record);
             if (!parentNode || parentNode == grid.getRootNode())
@@ -420,13 +381,11 @@ PowerForm.EventWizardWhere = function (e) {
             grid.updateRow(parentNode, upd);
             UpdateParent(grid, parentNode, field);
         }
-        
 ```
 
-### 向导事件
+#### 向导事件
 
-``` 
-
+```text
 向导拿到数据后
  PowerForm.EventWizardData = function(e, data) {
         }
@@ -434,10 +393,9 @@ PowerForm.EventWizardWhere = function (e) {
 PowerForm.EventWizardAfterUpdateRow=function(e,row)
  {
         }
-
 ```
 
-### 分页后台代码
+#### 分页后台代码
 
 ```csharp
 public string GetUsers(string EpsProjId, string Filter = "", int Index = 0, int Count = 0, int Pass = 0)
@@ -483,13 +441,15 @@ public string GetUsers(string EpsProjId, string Filter = "", int Index = 0, int 
         }
 ```
 
-### 标准版SVN地址
+#### 标准版SVN地址
+
 [标准版源码](http://192.168.0.2/svn/PowerPMS)
 
-### 获取config配置
+#### 获取config配置
+
 System.Configuration.ConfigurationManager.AppSettings
 
-### 流程加载后事件
+#### 流程加载后事件
 
 ```javascript
  //权限加载后事件
@@ -521,13 +481,11 @@ System.Configuration.ConfigurationManager.AppSettings
         }
 ```
 
-
-```
+```text
 string ftpIp = PowerGlobal.GetConfigRunTimeValue("FtpConfig", "Ip");
 string ftpPort = PowerGlobal.GetConfigRunTimeValue("FtpConfig", "Port");
 string ftpUserId = PowerGlobal.GetConfigRunTimeValue("FtpConfig", "UserId");
 string ftpUserPwd = PowerGlobal.GetConfigRunTimeValue("FtpConfig", "UserPwd");
-
 ```
 
 ```javascript
@@ -555,87 +513,40 @@ string ftpUserPwd = PowerGlobal.GetConfigRunTimeValue("FtpConfig", "UserPwd");
                     }});
 ```
 
-```
-
+```text
 查询条
  <a class="mini-button blue" id="GCLLT_Proj_projectCostRpt.SearchBar" onclick="PowerForm.OnBtnSearchBar(this)" style="display:none;">
                                 <i class="fa fa-search"></i>查询条</a>
 ```
 
-  function OnWizardCBS(e) {
-            var buttonid = e.id;
-            var url = "/Form/Wizard?wizardid=957ad71c-0b1d-4130-923d-3089efafebf1&formid=&btnid=";
-            mini.open({
-                url: url, title: "选择费用类型",
-                width: "80%",
-                height: "80%",
-                showMaxButton: true,
-                onload: function () {
-                    var cwin = this.getIFrameEl().contentWindow;
-                    if (cwin.Select) {
-                        if (cwin.WizardParams) cwin.WizardParams.multi = 0;
-                        if (cwin.Select.LoadStepFirst) cwin.Select.LoadStepFirst();
-                    }
-                },
-                 ondestroy: function (action) {
-                            if (action != "ok")
-                                return;
-                            var iframe = this.getIFrameEl();
-                            var data = null;
-                            if (iframe.contentWindow.Select)
-                                data = iframe.contentWindow.Select.GetData();
-                            else {
-                                if (iframe.contentWindow.GetData)
-                                    data = iframe.contentWindow.GetData();
-                            }
-                            if (!data) {
-                                Power.ui.warning("未选择数据");//未选择数据
-                                return;
-                            }
-                            data = mini.clone(data);
+function OnWizardCBS\(e\) { var buttonid = e.id; var url = "/Form/Wizard?wizardid=957ad71c-0b1d-4130-923d-3089efafebf1&formid=&btnid="; mini.open\({ url: url, title: "选择费用类型", width: "80%", height: "80%", showMaxButton: true, onload: function \(\) { var cwin = this.getIFrameEl\(\).contentWindow; if \(cwin.Select\) { if \(cwin.WizardParams\) cwin.WizardParams.multi = 0; if \(cwin.Select.LoadStepFirst\) cwin.Select.LoadStepFirst\(\); } }, ondestroy: function \(action\) { if \(action != "ok"\) return; var iframe = this.getIFrameEl\(\); var data = null; if \(iframe.contentWindow.Select\) data = iframe.contentWindow.Select.GetData\(\); else { if \(iframe.contentWindow.GetData\) data = iframe.contentWindow.GetData\(\); } if \(!data\) { Power.ui.warning\("未选择数据"\);//未选择数据 return; } data = mini.clone\(data\);
 
-                            if (e.Next == false)
+```text
+                        if (e.Next == false)
+                            return;
+                        var fields = formconfig[buttonid].fields;
+                        var grid = mini.get("PS_PurchaseOrder_Dtl");
+                        for (var i = 0; i < data.length; i++) {
+                            var selectrow = data[i];
+                            var row = PowerForm.OnBtnAdd(grid);
+                            if (row == false)
                                 return;
-                            var fields = formconfig[buttonid].fields;
-                            var grid = mini.get("PS_PurchaseOrder_Dtl");
-                            for (var i = 0; i < data.length; i++) {
-                                var selectrow = data[i];
-                                var row = PowerForm.OnBtnAdd(grid);
-                                if (row == false)
-                                    return;
-                                selectrow["CostTypeId"] = CostTypeId;
-                                fields["CostTypeId"] = "CostTypeId";
-                                var Cbs_Guid = selectrow.Cbs_Guid;
-                                FormFuns.CopyFieldValue(row, selectrow, fields);
-                                grid.updateRow(row);
-                            }
+                            selectrow["CostTypeId"] = CostTypeId;
+                            fields["CostTypeId"] = "CostTypeId";
+                            var Cbs_Guid = selectrow.Cbs_Guid;
+                            FormFuns.CopyFieldValue(row, selectrow, fields);
+                            grid.updateRow(row);
                         }
-//后台调用分摊方法。
- Dictionary<string, string> messageInputDto = new Dictionary<string, string>();
-                messageInputDto.Add("KeyValue", this.Id.ToString());
-                messageInputDto.Add("Code", "PS_ControlBudget_CBS");
-                messageInputDto.Add("flag", "1");
-                //此处可撰写保存后代码 
-                var message = new Power.Message.MessageArg<Dictionary<string, string>, string>(null, Power.Message.MessageTypes.Other, "Power.Controls.StdCost.StdCostControl.DirectlyShareForPIP", messageInputDto);
-                Power.Message.LocalMessageRouter.Instance.SendMessage(message);
-                if (message.MessageExecute.ResponseCount > 0)
-                {
-                    string result = message.DataResultObject;
-                }
-                else
-                {
-                    throw new Exception("对不起， 消息未得到响应,不存在Power.Controls.StdCost.StdCostControl.DirectlyShareForPIP方法，需要引用费用模块");
-                }
+                    }
+```
 
-## 新增时增加默认值。
- PowerForm.EventBeforeAddFormSetDefaultData = function (e, data) {
-            if (e.id == "RGY_MenuDict.AddForm" && e.selectedRow) {
-                data.Type = e.selectedRow.Code;
-                data.MemuId = e.selectedRow.MenuId;
-            }
-        }
+//后台调用分摊方法。 Dictionary messageInputDto = new Dictionary\(\); messageInputDto.Add\("KeyValue", this.Id.ToString\(\)\); messageInputDto.Add\("Code", "PS\_ControlBudget\_CBS"\); messageInputDto.Add\("flag", "1"\); //此处可撰写保存后代码 var message = new Power.Message.MessageArg, string&gt;\(null, Power.Message.MessageTypes.Other, "Power.Controls.StdCost.StdCostControl.DirectlyShareForPIP", messageInputDto\); Power.Message.LocalMessageRouter.Instance.SendMessage\(message\); if \(message.MessageExecute.ResponseCount &gt; 0\) { string result = message.DataResultObject; } else { throw new Exception\("对不起， 消息未得到响应,不存在Power.Controls.StdCost.StdCostControl.DirectlyShareForPIP方法，需要引用费用模块"\); }
 
-### 升版一个业务对象
+### 新增时增加默认值。
+
+PowerForm.EventBeforeAddFormSetDefaultData = function \(e, data\) { if \(e.id == "RGY\_MenuDict.AddForm" && e.selectedRow\) { data.Type = e.selectedRow.Code; data.MemuId = e.selectedRow.MenuId; } }
+
+#### 升版一个业务对象
 
 ```csharp
   public string UpgrateBo(Guid keyvalue)
@@ -738,3 +649,4 @@ string ftpUserPwd = PowerGlobal.GetConfigRunTimeValue("FtpConfig", "UserPwd");
             return result.ToJson();
         }
 ```
+
